@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(26, 22, 22);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    margin: 0;
+    background-image: url("index-bg.png");
+    background-repeat: none;
+    background-size:cover ;
+    color: black;
+}
+.head{
+    background-color: aliceblue;
+     width: 400px;
+    font-family: cursive;
+    height: 50vh;
+    align-self: center;
+    border-radius: 50px;
+    text-align: center;
+}
+button{
+    font-family: cursive;
+    border-radius: 25px;
+    height: 40px;
+    width: 75px;
+}
+input{
+    font-family: cursive;
+    border-radius: 25px;
+    height: 40px;
+    padding-left: 10px;
+
+}
+.back{
+    text-decoration: none;
+
+}

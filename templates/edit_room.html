@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit Room</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='edit_room.css') }}">
+</head>
+
+<body>
+    <div class="head">
+
+
+        <h1>Edit Room</h1>
+
+        <h3>{{ message }}</h3>
+        <div class="box">
+
+
+            <form method="POST">
+
+                <label>Room Name:</label>
+
+                <input type="text" name="room_name" value="{{ room.room_name }}">
+
+                <br><br>
+
+                <label>Members:</label>
+
+                <input type="text" name="members" value="{{ room_member_str }}">
+
+                <br><br>
+
+                <button type="submit">
+                    Update
+                </button>
+
+            </form>
+        </div>
+       
+        <p>No need to edit?
+    <a href="{{ url_for('view_room', room_id=room._id|string) }}" class="back">back</a>
+</p>
+    </div>
+
+</body>
+
+</html>

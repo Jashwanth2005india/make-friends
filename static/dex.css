@@ -1,0 +1,41 @@
+/* Center box only */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    background-image: url("/static/index-bg.png");
+    font-family: cursive;
+}
+
+.card {
+    width: 500px;
+    background: aliceblue;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000;
+}

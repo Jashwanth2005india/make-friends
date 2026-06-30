@@ -1,0 +1,4 @@
+flask
+flask-socketio
+eventlet
+ram_24:Jashwanth26

@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    
+}
+
+h1 {
+    color: #ffebeb;
+}
+
+a {
+    text-decoration: none;
+    color: #6a5acd;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#load_older_messages_btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #6a5acd;
+    color: white;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+#messages {
+    width: 60%;
+    max-width: 700px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#messages div {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    color: #000000;
+}
+
+#message_input_form {
+    width: 60%;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    
+}
+
+#message_input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#message_input_form button {
+    padding: 10px 20px;
+    border: none;
+    background: #6a5acd;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message_input_form button:hover,
+#load_older_messages_btn:hover {
+    background: #5848c2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Scrollbar */
+
+#messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 10px;
+}
+
+#messages::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+input{
+    font-family:cursive;
+}
+button{
+    font-family: cursive;
+}
